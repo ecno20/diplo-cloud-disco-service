@@ -38,3 +38,6 @@ jobs:
       
       - name: Print Test
         run: echo "Trabajo efectuado con éxito"
+      
+      - name: Pull request
+        run: echo "pull_request con éxito"
