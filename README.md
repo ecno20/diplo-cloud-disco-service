@@ -5,3 +5,5 @@ Implementation of  microservice for the disco-service application. The disco mic
 - Artista
 - Albun
 - canciones
+
+[![CI Caller](https://github.com/ecno20/diplo-cloud-disco-service/actions/workflows/ci.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-disco-service/actions/workflows/ci.yml)
