@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: disco-cloud-service
+spec:
+  selector:
+    app: disco-cloud
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
