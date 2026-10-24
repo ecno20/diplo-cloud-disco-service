@@ -1,5 +1,7 @@
 #Usa la imagen oficial de Maven como imagen base
 FROM maven:3.8.5-openjdk-17-slim AS build
+#Etiqueta del autor
+LABEL author="Jonathan ecno20"
 #Copian los archivos de configuración y el código fuente
 COPY src /usr/src/app/src
 COPY pom.xml /usr/src/app
